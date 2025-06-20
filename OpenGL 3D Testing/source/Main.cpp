@@ -40,7 +40,7 @@ int main() {
     glm::mat4 view = camera.getViewMatrix();
     glm::mat4 projection = glm::perspective(glm::radians(camera.getFov()), static_cast<float>(window.getWidth()) / window.getHeight(), 0.01f, 1000.0f);
 
-    glm::mat4 model = glm::scale(glm::mat4(1.0f), { 0.1f, 0.1f, 0.1f } );
+    glm::mat4 model = glm::scale(glm::mat4(1.0f), { 0.01f, 0.01f, 0.01f } );
     model = glm::translate(model, glm::vec3(0.0f, -1.0f, -5.0f));
 
     shader.use();
