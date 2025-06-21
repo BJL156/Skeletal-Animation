@@ -1,6 +1,10 @@
 # Skeletal Animation Renderer
 This is a simple skeletal animation system made using OpenGL, C++, tinygltf, and GLM. It supports both static and animated 3D models from `.gltf` files.
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/441f3083-de92-4815-ad70-e01a23d7eb65" alt="Demo GIF" width="480"/>
+</p>
+
 # 3D Model Credits
 [Animated Tyrannosaurus Rex Dinosaur Running Loop](https://sketchfab.com/3d-models/animated-tyrannosaurus-rex-dinosaur-running-loop-38007d947ae74dea83988cb0b08ee053) by [LasquetiSpice](https://sketchfab.com/LasquetiSpice).
 
